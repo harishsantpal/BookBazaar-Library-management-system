@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+
+
+	Your other CSS and head content
+	<link rel="stylesheet" type="text/css" th:href="@{/footerDesign.css}">
+
+	<title>Footer</title>
+
+	<!-- Add this line to include FontAwesome via a CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+	<footer id="footer" style="background-color: #e1e8f0;" class="p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Contact Us</h3>
+					<p>T.V. Center, Chhatrapati Sambhajinagar- 431 001.</p>
+					<p>Mob. NO : (+91) 705878XXXX</p>
+					<p>Email: harishsantpal8113@gmail.com</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Quick Links</h3>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/available_books">Available Books</a></li>
+						<li><a href="/my_books">My Books</a></li>
+						<li><a href="/add_new_book">Add New Book</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h3>Connect With Us</h3>
+					<ul class="social-media">
+						<ul class="social-media">
+							<li><a href="https://github.com/harishsantpal"><i class="fa-brands fa-github"></i>Git Hub</a></li>
+							<li><a href="https://www.linkedin.com/in/harish-santpal-001b041b6"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+						</ul>
+
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; 2023 BookBazaar. All rights reserved.</p>
+					<p>Designed and developed by Mr. Harish Santpal</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
